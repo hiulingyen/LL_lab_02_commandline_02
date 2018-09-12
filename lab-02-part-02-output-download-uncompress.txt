@@ -18,7 +18,7 @@ $ echo hello
 
 Copy and paste the output below.
 ----------
-
+hello
 
 
 ==========
@@ -28,7 +28,7 @@ $ echo hello there
 
 Copy and paste the output below.
 ----------
-
+hello there
 
 
 ==========
@@ -38,7 +38,7 @@ $ echo good mornin'
 
 Copy and paste the output below.
 ----------
-
+good mornin'
 
 
 ==========
@@ -56,7 +56,7 @@ $ echo "good mornin'"
 
 Copy and paste the output below.
 ----------
-
+"good mornin'"
 
 
 ==========
@@ -74,7 +74,7 @@ What happens?
 
 Write the command that you used below:
 ----------
-
+clear
 
 
 ==========
@@ -105,7 +105,7 @@ Copy and paste the output below, but not the whole thing!  Just copy up to the p
 
 Write the command you used below.  Also copy and paste the output below.
 ----------
-
+curl -o google.html www.google.com
 
 
 ==========
@@ -113,7 +113,8 @@ Write the command you used below.  Also copy and paste the output below.
 
 Write the command you used to determine your directory.  Also, copy and paste the output below.
 ----------
-
+pwd
+/Users/student/Desktop
 
 
 ==========
@@ -121,7 +122,7 @@ Write the command you used to determine your directory.  Also, copy and paste th
 
 Write the command that you used to change to your home directory.  If you were already in your home directory, write the command that you *would* have used to change to it!
 ----------
-
+cd ~
 
 
 ==========
@@ -137,7 +138,7 @@ Use ls to verify that it downloaded.
 
 Write down the command that you used to download the file below.  Additionally, write the output of the command below.
 ----------
-
+curl -o mtec1002-lab-02.zip http://entertainmenttechnology.github.io/Wilson-MTEC1003/labs/02/mtec1002-lab-02.zip
 
 
 ==========
@@ -145,7 +146,7 @@ Write down the command that you used to download the file below.  Additionally, 
 
 Write down the command that you used to uncompress the file.
 ----------
-
+unzip mtec1002-lab-02.zip
 
 
 ==========
@@ -164,7 +165,7 @@ We're going to mess around with archiving and compressing files.  We'll make a d
 
 Copy and paste the output below.
 ----------
-
+stuff
 
 
 ==========
@@ -188,7 +189,7 @@ List the files in the directory you're currently in (which should be home).
 
 Copy and paste the output below.
 ----------
-
+stuff stuff.tar
 
 
 ==========
@@ -198,7 +199,7 @@ $ tar -cvf stuff.tar stuff
 
 Copy and paste the output below.
 ----------
-
+stuff stuff.tar
 
 
 ==========
@@ -206,7 +207,7 @@ Copy and paste the output below.
 
 Copy and paste the output below. (It should contain stuff.tar)
 ----------
-
+stuff stuff.tar
 
 
 ==========
@@ -216,7 +217,7 @@ gzip stuff.tar
 
 List your files again.... you should have a new file with a .gz extension.  Copy and paste the output of your this below.
 ----------
-
+stuff stuff.tar stuff.tar.gz
 
 
 ==========
@@ -230,7 +231,7 @@ Change your directory to mtec1002-lab-02.
 
 List the files.  Copy and paste the output below (stuff.tar.gz should be there).
 ----------
-
+stuff.tar.gz
 
 ==========
 23. You should be in the lab directory.  Let's uncompress the file.
@@ -239,7 +240,7 @@ $ tar -xvf stuff.tar.gz
 
 List the files.  Copy and paste the output below (the folder, stuff, should be there).
 ----------
-
+stuff stuff.tar.gz
 
 
 
