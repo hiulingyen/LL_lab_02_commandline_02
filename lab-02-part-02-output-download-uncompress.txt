@@ -102,7 +102,7 @@ $ curl www.google.com
 
 Copy and paste the output below, but not the whole thing!  Just copy up to the part that has the title tags (<title>......</title>).
 ----------
-
+<title>Google</title>
 
 
 ==========
